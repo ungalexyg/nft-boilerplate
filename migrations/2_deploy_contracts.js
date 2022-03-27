@@ -1,5 +1,7 @@
-var SimpleStorage = artifacts.require("./SimpleStorage.sol");
+const CoffeeToken = artifacts.require("CoffeeToken.sol");
 
-module.exports = function(deployer) {
-  deployer.deploy(SimpleStorage);
-};
+module.exports = async function (deployer) {
+
+    //
+    await deployer.deploy(CoffeeToken, 1000000);
+}
