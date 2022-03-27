@@ -1,5 +1,5 @@
 // import contracts to test from truffle's artifacts
-const CoffeeToken = artifacts.require("CoffeeToken"); // here .sol not required
+const CoffeeToken = artifacts.require("CoffeeToken20"); // here .sol not required
 
 // procedure to use chai's big number lib, inject web3's BN into chai-bn
 // @see: https://www.chaijs.com/plugins/chai-bn/

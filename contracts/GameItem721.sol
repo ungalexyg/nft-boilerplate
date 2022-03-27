@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 /**
  * ERC-721 boilerplate
  */
-contract GameItem is ERC721URIStorage {
+contract GameItem721 is ERC721URIStorage {
     // Counters utils
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
